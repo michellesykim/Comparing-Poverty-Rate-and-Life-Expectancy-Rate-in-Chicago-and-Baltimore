@@ -26,7 +26,7 @@ The business question for our final project is "How can we combat life expectanc
 # Python Notebook/Analysis
 
 Used Python and Google Colaboratory to conduct analysis
-* **Python - comparing incarceration rate for different parent income in Baltimore City and Washington, DC**: a Google Colaboratory notebook to aggregate data and conduct analysis with Python [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mtiqum_Bf5h6a5wmJOHzPdT9K9_QaklI#scrollTo=5o5o0qYgYZep)
+* **Python - Comparing poverty rate and life expectancy rate in Chicago and Baltimore**: a Google Colaboratory notebook to aggregate data and conduct analysis with Python [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mtiqum_Bf5h6a5wmJOHzPdT9K9_QaklI#scrollTo=5o5o0qYgYZep)
 
 # Data Analysis
 
@@ -67,5 +67,7 @@ In our final project, we compared the median household income and life expectanc
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.34.35%20AM.png)
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.35.05%20AM.png)
 
-Also, both the average poverty rate and life expectancy rate in Chicago are higher than Baltimore. One might think since the poverty rate and life expectancy have inverse relationship, if average poverty rate is higher in Chicago, it would makes sense for Chicago to have lower life expectancy. However, as I shown before, sinc e Chicago has higher population overall, there could be more outliers that could led to this result for Chicago. It is true that both Chicago and Baltimore had a strong inverse relationship for life expectancy rate and poverty rate. However, for our final project, considering the fact that individual data points for Chicago scatter plots were more spread out whereas the points in Baltimore were much more clustered around the trend line, it would be much more important for Baltimore to have solutions that could potentially lower the poverty rate given the fact that life expectancy rate in Baltimore is much more affected by the poverty rate compared to Chicago. 
+Also, both the average poverty rate and life expectancy rate in Chicago are higher than Baltimore. One might think since the poverty rate and life expectancy have inverse relationship, if average poverty rate is higher in Chicago, it would make sense for Chicago to have lower life expectancy. However, as I shown before, sinc e Chicago has higher population overall, there could be more outliers that might have led to this result for Chicago. 
+
+In conclusion, it is true that both Chicago and Baltimore have a strong inverse relationship for life expectancy rate and poverty rate even though both cities were slightly different in terms of demographics. This analysis shows that it is going to be really important for Baltimore to have solutions that could potentially lower the poverty rate to increase the life expectancy rate in Baltimore. Thus, solutions that could increase the disposable income could be helpful. 
 
