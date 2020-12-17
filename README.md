@@ -1,7 +1,8 @@
 # Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago
 
 # Background
-The business question for the final project is "How can we combat life expectancy and mortality rates in the 45-64 age group in Baltimore City?" To support this, as part of the final project, we ran the simple regression between life expectancy rate and household income. Also, we did cluster analysis for life expectancy rate including variables such as bike lanes, free/reduced meals, healthy food index, etc. To better support the final project and add more information, I am going to add another varialbe which is poverty rate and another city which is going to be Chicago. The main objective of this project would be to see if both Baltimore and Chicago have same relationship between poverty rate and life expectancy, and also to see if Chicago has the same relationship between income and life exepctancy as Baltimore which we already did in our final project. This project would help the final project to have more solid solutions such as UBI that could possibly solve the poverty issue and eventually increase the life expectancy. Moreover, the project is going to cover how Chicago and Baltimore is different in terms of demographics. 
+
+The business question for our final project is "How can we combat life expectancy and mortality rates in the 45-64 age group in Baltimore City?" To support this, as part of the final project, we ran the simple regression between life expectancy rate and household income. Also, we did cluster analysis for life expectancy rate with variables such as bike lanes, free/reduced meals, healthy food index, etc. To better support the final project and add more information, I am going to add another variable which is poverty rate and another city which is going to be Chicago. The main objective of this project is to see if both Baltimore and Chicago have the same relationship between poverty rate and life expectancy and also to see if Chicago has the same relationship between income and life expectancy as Baltimore (Baltimore analysis of income and life expectancy was already conducted in the midterm project). This project would help the final project to have more solid solutions such as UBI that could possibly solve the poverty issue and eventually increase the life expectancy in Baltimore. Moreover, the project is going to cover how Chicago and Baltimore is different in terms of demographics.
 
 # Data
 [Life expectancy rate - Baltimore] https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/commit/b481bba144d2f33ba44fdd1389e0b3b9429f5f1c
@@ -32,25 +33,29 @@ Used Python and Google Colaboratory to conduct analysis
 # Demographics difference in Chicago and Baltimore
 Before the poverty rate and life expectancy rate comparison in both cities, it would make sense to compare how two cities are different from each other in terms of demographics, including the total population, age group population, and gender ratio.  
 
-## Age group population in Chicago and Baltimore
+## Age Distribution in Chicago and Baltimore
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.35.45%20AM.png)
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.36.28%20AM.png)
 
-Age group population distribution between Chicago and Baltimore are almost the same. The highest age group population is 30 - 49 years old for both cities, and both cities have bell curved shape distributions. Also, the second highest age group populaiton were 21-29 age group and 50-61 age group for both cities. The only difference is that the total populaiton is much higher for Chicago where the total populaiton is almost 2.7M compared to Baltimore where the total populaiton is about 600K. Due to the higher population in Chicago, although the trend for age group distributions are same for both cities, the actual population for each bar is much higher for Chicago. 
+
+Age distribution between Chicago and Baltimore are almost the same. The highest age group population is 30 - 49 years old for both cities, and both cities have bell curved shape distributions. Also, the second highest age group population were 21-29 age group and 50-61 age group for both cities. The only difference is that the total population is much higher for Chicago where the total population is almost 2.7M compared to Baltimore where the total population is about 600K. Due to the higher population in Chicago, although the trend for age group distributions is same for both cities, the actual population for each bar is much higher for Chicago. Also, since Chicago has more populations, analysis-wise, there could be more outliers that could change the result of any analysis.
+
 
 ## Gender ratio in Chicago and Baltimore
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.37.07%20AM.png)
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.37.38%20AM.png)
 
-Next is gender ratio comparison in both cities. In both cities, there are more male population. However, Baltimore has a slightly higher male population of 53.1% whereas the male populaton in Chicago is 51.3%.
 
-Now that we have seen how these two cities are different in some ways, I am going to compare poverty rate and life expectancy for both cities to see if they both have same trend. 
+Next is gender ratio comparison in both cities. In both cities, there are more male population. However, Baltimore has a slightly higher male population of 53.1% whereas the male population in Chicago is 51.3%. 
+
+Now that we have seen how these two cities are different in terms of demographics, I am going to compare poverty rate and life expectancy for both cities to see if they both have the same trend.
+
 
 ## Poverty rate vs. Life expectancy rate in Chicago and Baltimore
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.32.01%20AM.png)
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.33.48%20AM.png)
 
-Both scatter plots and trend lines show that both Baltimore and Chicago have inverse relationship between the poverty rate and life expectancy rate. Thus, as poverty rate increases the life expectancy decreases. The only difference could be for Chicago, individual data points tend to spread out more than the ones in Baltimore scatter plot. For Baltimore scatter plot, individual data points tend to cluster around the trend line. This could indicate that the R^2 value could be slightly lower for Chicago which means the poverty rate could be less better in explaining the life expectancy value in Chicago compared to Baltimore.
+Both scatter plots and trend lines show that both Baltimore and Chicago have inverse relationship between the poverty rate and life expectancy rate. Thus, as poverty rate increases the life expectancy decreases. Even though, both cities had some differences in terms of demographics, the overall trend between the poverty rate and life expectancy rate is same. 
 
 ## Income vs. Life expectancy rate in Chicago and Baltimore
 ![alt text](https://github.com/michellesykim/Comparing-poverty-rate-income-and-life-expectancy-rate-in-Chicago/blob/main/Screen%20Shot%202020-12-11%20at%202.33.06%20AM.png)
